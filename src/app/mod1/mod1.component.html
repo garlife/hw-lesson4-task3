@@ -1,0 +1,10 @@
+<!-- <div>
+  Число до форматирования: {{ number }} <br />
+  Число после форматирования: {{ number | format }} <br />
+</div>
+<hr> -->
+
+<div>{{ surnames | join: ", " }}</div>
+<div>{{ surnames | join: "; ":1 }}</div>
+<div>{{ surnames | join: " + "}}</div>
+<div>{{ surnames | join: "->":0:2}}</div>
